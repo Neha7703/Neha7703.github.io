@@ -1,0 +1,134 @@
+*{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+  
+body {
+    background: linear-gradient(rgba(2,10,0,0.6), rgba(2,10,0,0.6)), url("https://images.unsplash.com/photo-1494832944834-a08818c634b0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cG92ZXJ0eXxlbnwwfHwwfHw%3D&amp;ixlib=rb-1.2.1&amp;w=1000&amp;q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, black,rgba(213, 15, 61, 0.6));
+    padding: 4px 10px;
+}
+
+#navbar {
+    padding-left: 10px;
+    font-size: 17px;
+    line-height: 20px;
+    border-radius: 2px;
+}
+
+.navbar-nav {
+    margin-left: 80%;
+}
+
+#navbar ul li a{
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#navbar ul li a:hover{
+    background-color:yellow;
+    border-radius: 80px;
+    color: brown;
+  }
+
+.navbar-brand img {
+    height: 50px;
+    width: 50px;
+}
+
+#intro-section {
+    height: 560px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 110px;
+    text-align: center;
+    color: white;
+}
+
+#intro-section h3 {
+    font-weight: 500;
+    margin-bottom: 80px;
+    font-family: cursive;
+}
+
+#intro-section h1 {
+    font-size: 56px;
+    font-weight: 500;
+    background-color: rgba(206,10,66,0.3);
+    font-family: Georgia, serif;
+    word-spacing: 10px;
+    margin-bottom: 90px;
+}
+
+#intro-section h5 {
+    font-weight: 400;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.about {
+    padding: 70px 160px;
+}
+.about h1{
+    font-size: 50px;
+    color:white;
+    padding: 10px;
+    background-color: rgba(213, 15, 61, 0.6);
+    text-align: center;
+    font-weight: bold;
+}
+.about p{
+    padding: 0px 100px;
+    margin-top: 50px;
+    background-color: rgba(100,100,160,0.2);
+    text-align: center;
+    font-size:24px;
+}
+
+.contact-form{
+    text-align: center;
+    padding: 60px;
+}
+
+.contact-form h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 60px;
+}
+
+.contact-form a{
+    font-size: 22px;
+}
+
+.input-box{
+    font-size: 16px;
+    padding-bottom: 12px;
+    margin-bottom: 36px;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #ccc;
+    width: 20%;
+}
+#btn-submit{
+    background-color: rgba(213, 15, 61, 0.6);
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 18px;
+    color: white;
+    border: none;
+}
+
+#btn-submit:hover {
+    background-color:yellow;
+    color: blue;
+}
